@@ -1,0 +1,22 @@
+.feedbackButtons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin: 15px 5;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 24px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  background-color: #3769aa;
+  color: white;
+  transition: background-color 0.4s, transform 0.4s;
+}
+
+.button:hover {
+  background-color: #1f4a8a;
+  transform: scale(1.2);
+}
